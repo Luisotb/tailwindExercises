@@ -13,8 +13,8 @@ const Eje01 = () => {
         <p>Pista: https://tailwindcss.com/docs/flex</p>
         <p>Pista: https://tailwindcss.com/docs/gap</p>
       </div>
-      <div className="gap-3">
-        <CardSimple />
+      <div className="flex gap-3">
+        <CardSimple class="" />
         <CardSimple />
         <CardSimple />
       </div>
