@@ -1,6 +1,6 @@
 import CardSimple from '../components/CardSimple'
 
-const Eje010 = () => {
+const Eje015 = () => {
   return (
     <div>
       <h1>Ejercicio 014</h1>
@@ -14,12 +14,12 @@ const Eje010 = () => {
       <p>Pista: https://tailwindcss.com/docs/animation</p>
 
       <div className="m-4 flex gap-8"  >
-        <img className='animate-spin' src="/src/assets/react.png" alt="react" width="100"/>
-        <img className='animate-bounce' src="/src/assets/react.png" alt="react" width="100"/>
-        <img className='animate-pulse' src="/src/assets/react.png" alt="react" width="100"/>
+        <h3>Animaciones usando tailwind</h3>
+        <img className='hover:animate-myFadeIn' src="/src/assets/react.png" alt="react" width="100"/>
+       
       </div>
     </div>
   )
 }
 
-export default Eje010
+export default Eje015

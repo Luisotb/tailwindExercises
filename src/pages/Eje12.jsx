@@ -13,7 +13,7 @@ const Eje010 = () => {
       <p>Pista: https://tailwindcss.com/docs/background-image#customizing-your-theme</p>
       <p>Pista: https://tailwindcss.com/docs/background-blend-mode</p>
 
-      <div className=' bg-red-300 w-60 h-60 bg-cover'>
+     <div className=' bg-red-300 w-60 h-60 bg-cover-[url("/src/assets/fondo1.jpg") bg-blend-overlay flex justify-center items-center]'>
         CEBEM
       </div>
     </div>

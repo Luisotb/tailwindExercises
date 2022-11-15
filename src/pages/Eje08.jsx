@@ -17,7 +17,7 @@ const Eje08 = () => {
         <p>Pista: https://tailwindcss.com/docs/background-color#hover-focus-and-other-states</p>
       </div>
       <div>
-        <button className="">Pulsame</button>
+        <button className="p-3 rounded-lg bg-sky-500 text-white cursor-pointer hover: bg-blue-800">Pulsame</button>
       </div>
     </div>
   )

@@ -13,7 +13,7 @@ const Eje06 = () => {
         <p>Deja ademas una pequeña distancia de separación entre los card de 0.75rem</p>
         <p>Pista: https://tailwindcss.com/docs/flex-wrap</p>
       </div>
-      <div className=''>
+      <div className='flex flex-wrap gap-3'>
         <CardSimple />
         <CardSimple />
         <CardSimple />
